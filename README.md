@@ -1,11 +1,9 @@
-# ***Inacabado***
-
 # **AppCadastro (Cadastro de usuário)**
 
 > Um aplicativo Android desenvolvido para poder cadastrar mais usuários e poder ver cada um listado em uma tela separada.
 
 ## Descrição
-O **AppCadastro** permite ao usuário poder cadastrar novos usuários com telefone e endereço e podera ver cada usuário cadastro na tela de listagem onde mostra o nome, telefone e endereço e o número de usuários cadastrados. 
+O **AppCadastro** permite ao usuário poder cadastrar novos usuários com telefone e endereço e podera ver cada usuário cadastro na tela de listagem onde mostra o nome, telefone e endereço e o número de usuários cadastrados,(Se fechar o aplicativo e abrir ele de novo todos os dados serão apagados, isso devido apenas um simples trabalho e não ter mais um desenvolvimento programado para o trabalho futuramente). 
 
 ## Funcionalidades
 - [x] Entrada de dados de consumo
@@ -63,19 +61,19 @@ A interface do app foi criada usando ConstraintLayout no modelo Design para ser 
 
 ![image](https://github.com/user-attachments/assets/d60eec7b-f876-4586-b59f-fff1c988043d)
 
-Uma tela simples, as imagens são opicionais "Elas são colocadas por imagemView e selecione a pasta com as imagens pré-selecionadas", 5 EditText para, Nome do veiculo, Placa do carro, Km sendo distancia, Km/l sendo consumo, e o R$ sendo o preço gasto, um botão para processar a conta informada adequadamente, e no final o TextView para mostrar o resultado final do calculo com as informações insiridas de maneira certa.
+Uma tela simples, dois botões para poder trocar te telas para poder cadastrar e ver a lista de maneira simultanea, e no final o TextView para ser usado como titulo para mostar qual tela em especifico você está.
 
 > Tela Cadastro
 
 ![image](https://github.com/user-attachments/assets/91c99859-a43b-422c-8574-cba6549e4704)
 
-Uma tela simples, as imagens são opicionais "Elas são colocadas por imagemView e selecione a pasta com as imagens pré-selecionadas", 5 EditText para, Nome do veiculo, Placa do carro, Km sendo distancia, Km/l sendo consumo, e o R$ sendo o preço gasto, um botão para processar a conta informada adequadamente, e no final o TextView para mostrar o resultado final do calculo com as informações insiridas de maneira certa.
+Uma tela simples, 3 EditText para, Nome do usuário, Telefone do usuário e Endereço do usuário para serem salvos no banco de dados, dois botões para cadastrar na lista e poder ser logado a conta e o outro para volta para a tela inicial para escolher a onde quer ir novamente, e no final o TextView para ser usado como titulo para mostar qual tela em especifico você está, aparecera um alerta que o usuário for cadastrado.
 
 > Tela de listagem de usuário
 
 ![image](https://github.com/user-attachments/assets/01969912-7d2a-4756-9489-50ba4c818b3e)
 
-Uma tela simples, as imagens são opicionais "Elas são colocadas por imagemView e selecione a pasta com as imagens pré-selecionadas", 5 EditText para, Nome do veiculo, Placa do carro, Km sendo distancia, Km/l sendo consumo, e o R$ sendo o preço gasto, um botão para processar a conta informada adequadamente, e no final o TextView para mostrar o resultado final do calculo com as informações insiridas de maneira certa.
+Uma tela simples, 3 botões, dois para ver os usuários listados no servidor e o ultimo botão para voltar para tela principal para novamente poder escolher qual tela o usuário queira entrar, e no final o 4 TextView para ser usado como, Nome, Telefone e Endereço onde cada dado do usuário será msotrado e titulo para mostar qual tela em especifico você está e mostrara quantos usuários estão listados no banco.
 
 ## Desenvolvedores
 **Gabriel Henrique** - Desenvolvedor - [GitHub](https://github.com/Hacker19991).
